@@ -1,0 +1,8 @@
+.recipes {
+  display: flex;
+  border: 1px solid red;
+}
+
+.recipes__list, .recipes__details {
+  width: 50%;
+}

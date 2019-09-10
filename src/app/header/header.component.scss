@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #2299ff;
+}
+
+.header__link {
+  color: #fff;
+}
+
+.header__menu {
+  display: flex;
+  margin-left: auto;
+}
+
+.header__menu-item {
+  padding: 10px;
+}

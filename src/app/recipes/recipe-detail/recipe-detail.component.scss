@@ -1,0 +1,28 @@
+.recipe-detail {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe-detail__title {
+  width: 60%;
+}
+
+.recipe-detail__btn {
+  padding: 5px 15px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 3px;
+}
+
+.recipe-detail__description {
+  width: 100%;
+}
+
+.recipe-detail__ingredient {
+  width: 100%;
+}
+
+.recipe-detail__image {
+  width: 100%;
+  max-width: 300px;
+}

@@ -1,0 +1,15 @@
+.shopping-list__ingredient-list {
+  border: 1px solid gray;
+  border-radius: 2px;
+  width: 50%;
+}
+
+.shopping-list__ingredient-list-item {
+  padding: 5px;
+  border-bottom: 1px solid #808080;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+

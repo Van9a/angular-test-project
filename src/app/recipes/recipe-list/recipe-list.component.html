@@ -1,0 +1,10 @@
+<div class="recipe-list">
+  <button class="recipe-list__btn--add">New recipe</button>
+  <div class="recipe-list__container">
+    <app-recipe-item
+      class="recipe-list__item"
+      *ngFor="let recipeEl of recipes"
+      [recipe]="recipeEl"
+      (recipeSelected)="onRecipeSelected(recipeEl)"></app-recipe-item>
+  </div>
+</div>
